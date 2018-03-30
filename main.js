@@ -26,7 +26,7 @@ var cmdmap = {
 }
  
      //Command ausführen   
-    function cmd_say(msg) {
+    function cmd_say(msg, args) {
         
         msg.channel.send(args.join(' '))
 
